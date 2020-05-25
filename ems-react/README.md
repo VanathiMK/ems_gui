@@ -14,7 +14,7 @@
 
 4. Hit the below url in browser:
 
-5. [**http://localhost:3000**](http://localhost:3000)
+     [**http://localhost:3000**](http://localhost:3000)
 
 **Below are the screenshots:**
 **Home Page:**
