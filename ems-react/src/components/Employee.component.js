@@ -1,5 +1,5 @@
 import React, * as react from "react";
-import {useEffect} from 'react';
+
 import EmployeeService from "../services/employee.service"
 class Employee extends react.Component{
     constructor(props){
