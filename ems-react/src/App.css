@@ -34,6 +34,10 @@
   border: 1px  black;
   margin:20px;
 }
+.contBgPink{
+  background-color: plum;
+  border: 1px black 
+}
 .simpleBorder{
 border: 2px solid black;
 }

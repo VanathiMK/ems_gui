@@ -2,10 +2,8 @@
 import  { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
-import { render } from '@testing-library/react';
 import React, { Component } from 'react';
-import Employee from "./components/Employee.component";
-import Header from "./components/Header.component";
+
 import AddEmployee from "./components/AddEmployee.js";
 import ReadEmployee from "./components/ReadEmployee";
 import UpdateEmployee from "./components/UpdateEmployee";
@@ -34,8 +32,10 @@ class App extends Component {
   return (
     <Router>
     <div className="container containerbg customColor" >
-     <h3 class="text-center "> Employee Management</h3>
-     <h6 class="text-center customColor2"> Open book assignment submitted by VanathiMK</h6>
+      <div >
+     <h3 class="text-center pad"> Employee Management</h3>
+     <h6 class="text-center customColor2 pad"> Open book assignment submitted by VanathiMK</h6>
+     </div>
         <div className="row pb-5">
           <div className="col-md 3 pad">
           <div className="col-md-3 pad">
